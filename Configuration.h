@@ -1,6 +1,6 @@
 #ifndef CONFIGURATION_H
 #define CONFIGURATION_H
-// teste7
+// teste8
 // This configurtion file contains the basic settings.
 // Advanced settings can be found in Configuration_adv.h
 // BASIC SETTINGS: select your board type, temperature sensor type, axis scaling, and endstop configuration
