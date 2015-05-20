@@ -84,7 +84,7 @@
 // 52 is 200k thermistor - ATC Semitec 204GT-2 (1k pullup)
 // 55 is 100k thermistor - ATC Semitec 104GT-2 (Used in ParCan) (1k pullup)
 
-#define TEMP_SENSOR_0 0
+#define TEMP_SENSOR_0 0  /*CHANGE LATTER -> 1*/
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_BED 0 /*CHANGE LATTER -> 1*/
@@ -372,6 +372,7 @@ const bool Z_ENDSTOPS_INVERTING = true; // set to true to invert the logic of th
 // default settings
 
 #define DEFAULT_AXIS_STEPS_PER_UNIT   {80, 80, 4000,600}  // default steps per unit for Ultimaker
+/*CHANGE LATTER*/
 // (x, y, z, extruder) fazer regra de 3 ap—s ligar a impressora:
 // [(valor que est‡ em cada eixo 80)*(medida que vc mandou ela andar ex:50mm)] \ (quanto ela realmente andou)
 // ex: (80*50)/62.9293 = 63.56339574729101, utilizar apenas 4 casas decimais: 63.5633
